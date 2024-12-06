@@ -7,6 +7,7 @@ import {Formik} from 'formik';
 import {newUserSchema} from '../../utils/validationsSchemas';
 import {useDispatch} from 'react-redux';
 import {addNewUser} from '../../store/slice/userSlice';
+import screenNames from '../../utils/route';
 
 const AddNewUser = () => {
   const dispatch = useDispatch();

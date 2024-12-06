@@ -19,7 +19,7 @@ const Users = ({navigation}) => {
               fontWeight: 'bold',
               marginHorizontal: 'auto',
             }}>
-            Henüz bir kullanıcı eklenmedi !
+            User has not been added yet!
           </Text>
         }
         data={users}
